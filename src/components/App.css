@@ -1,1 +1,45 @@
 /* Styles go here */
+.buttonStyle1{
+    background-color: rgb(50, 85, 179);
+    padding: 5px; 
+    margin: 10px auto; 
+    width: 450px; 
+    text-align: center; 
+    border: none; 
+    border-radius: 20px; 
+    box-shadow: 5px 5px 20px #000;
+}
+
+.inputStyle {
+    background-color: rgba(24, 54, 153, 0.616);
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.h2Title {
+    text-align: center;
+}
+
+.cust-file {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    background-color: rgb(62, 123, 184);
+    color: #fff;
+    text-align:center; 
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 480px;
+    font-size: 20px;
+}
+
+.cust-file input{
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
